@@ -1,0 +1,32 @@
+.love{
+  width: 30px;
+  height: 30px;
+  object-position: center;
+  object-fit: center;
+  vertical-align: middle;
+  border-radius: 100px;
+ 
+}
+.search-bar{
+   font-size: 11px;
+   border-style: none;
+
+}
+.Tweet:hover{
+  box-shadow:5px 5px 10px rgba(0, 0, 0, 0.15) ;
+}
+.Tweet{
+  background-color: rgb(85, 164, 255);
+  color: white;
+  border-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 11px;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+
+}

@@ -1,29 +1,9 @@
-.req{
+.req {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-
   font-size: 28px;
-
-
 }
-.pickup{
-  display: block;
-  margin-bottom: 10px;
-  background-color: rgb(223, 223, 223);
-  border-style: none;
-  width: 400px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  margin-right: 20;
-  font-size: 9px;
-
-}
-.pickup::placeholder{
-  color: rgb(34, 38, 41);
-}
-.desti{
-
+.pickup {
   display: block;
   margin-bottom: 10px;
   background-color: rgb(223, 223, 223);
@@ -35,11 +15,26 @@
   margin-right: 20;
   font-size: 9px;
 }
-.desti::placeholder{
+.pickup::placeholder {
   color: rgb(34, 38, 41);
 }
-.button1{
-  background-color: black;
+.desti {
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(223, 223, 223);
+  border-style: none;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-right: 20;
+  font-size: 9px;
+}
+.desti::placeholder {
+  color: rgb(34, 38, 41);
+}
+.button1 {
+  background-color: blue;
   border-style: none;
   color: white;
   padding-top: 10px;
@@ -48,11 +43,9 @@
   padding-right: 15px;
   margin-top: 15px;
   margin-right: 15px;
-cursor: pointer;
-
+  cursor: pointer;
 }
-.button2{
-
+.button2 {
   background-color: rgb(223, 223, 223);
   border-style: none;
   color: rgb(34, 38, 41);

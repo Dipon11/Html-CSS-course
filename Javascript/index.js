@@ -45,6 +45,16 @@
 
 // console.log(Amazon);
 
-
 //Arithmatic Operators
 
+let a = 5;
+let b = 2;
+
+console.log("a+b =", a + b);
+console.log("a-b =", a - b);
+console.log("a*b =", a * b);
+console.log("a/ b =", a / b);
+console.log("a % b =", a % b);
+console.log("Exponenent a**b", a ** b);
+console.log("Increment", a++);
+console.log("Decrement ", b--);

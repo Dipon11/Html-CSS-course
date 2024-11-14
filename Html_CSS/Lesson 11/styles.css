@@ -1,0 +1,11 @@
+.fb-req {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-right: 20px;
+  border-color: aqua;
+  border-radius: 10px;
+  border-style: double;
+}
+.yes {
+  width: 100%;
+}
